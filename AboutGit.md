@@ -18,3 +18,7 @@
 # git rm
 - Git에서 파일을 제거하려면 git rm 명령으로 Tracked 상태의 파일을 삭제한 후에 (정확히는 Staging Area에서 삭제하는 것) 커밋해야 한다. 이명령은 워킹 디렉토리에 있는 파일도 삭제하기 때문에 실제로 파일도 지워진다. 
 
+# remote repository에 push 하기
+- git push <리모트 저장소 이름> <브랜치 이름>
+- 예) git push wj master
+
